@@ -1,0 +1,31 @@
+{
+  "name": "spinning-board-sdk",
+  "version": "1.0.0",
+  "description": "SDK for interacting with the Spinning Board game on Stacks",
+  "main": "index.js",
+  "exports": "./index.js",
+  "type": "module",
+  "author": "phessophissy <adefesobi@yahoo.com>",
+  "license": "MIT",
+  "keywords": [
+    "stacks",
+    "bitcoin",
+    "blockchain",
+    "clarity",
+    "game",
+    "sdk",
+    "spinning-board"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phessophissy/SpinningB-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phessophissy/SpinningB-sdk/issues"
+  },
+  "homepage": "https://github.com/phessophissy/SpinningB-sdk#readme",
+  "dependencies": {
+    "@stacks/network": "^6.17.0",
+    "@stacks/transactions": "^6.17.0"
+  }
+}

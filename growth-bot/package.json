@@ -1,0 +1,14 @@
+{
+  "name": "spinning-board-growth-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Install and smoke-check spinning-board-sdk",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "spinning-board-sdk": "latest"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

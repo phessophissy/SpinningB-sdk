@@ -64,4 +64,12 @@ export class SpinningBoardSDK {
   getContractIdentifier() {
     return `${this.contractAddress}.${this.contractName}`;
   }
+
+  /**
+   * Return the valid spin value range.
+   * @returns {{ min: number, max: number }}
+   */
+  static getSpinRange() {
+    return { min: 1, max: 10 };
+  }
 }

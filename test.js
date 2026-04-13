@@ -78,4 +78,10 @@ describe('SpinningBoardSDK', () => {
   it('exports CONTRACT_NAME as expected', () => {
     assert.equal(CONTRACT_NAME, 'spinning-board');
   });
+
+  it('getSpinRange returns min 1 and max 10', () => {
+    const range = SpinningBoardSDK.getSpinRange();
+    assert.equal(range.min, 1);
+    assert.equal(range.max, 10);
+  });
 });

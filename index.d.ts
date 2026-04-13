@@ -28,4 +28,5 @@ export declare class SpinningBoardSDK {
   constructor(options?: SpinningBoardSDKOptions);
   buildPlayTransaction(params: BuildPlayTransactionParams): Promise<StacksTransaction>;
   getContractIdentifier(): string;
+  static getSpinRange(): { min: number; max: number };
 }
